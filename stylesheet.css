@@ -3,7 +3,10 @@
     height: 100vh;
     padding-top: 1px;
 }
-
+.scoreboard {
+    margin-left: auto;
+    margin-right: auto;
+}
 .container {
     margin: 0 auto;
     display: grid;
@@ -27,4 +30,16 @@
     align-items: center;
     font-size: 50px;
     cursor: crosshair;
+}
+.display {
+    text-align: center;
+}
+.player1 {
+    color: rgb(84, 84, 161);
+}
+.player2 {
+    color: rgb(30, 30, 216);
+}
+h1 {
+    text-align: center;
 }
